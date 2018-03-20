@@ -1,0 +1,3 @@
+class BaseEndpoint:
+    pass
+
