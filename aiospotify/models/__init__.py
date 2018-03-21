@@ -7,5 +7,6 @@ from .mode import Mode
 from .playlist import Playlist
 from .recommendations import Recommendations
 from .seeds_config import SeedsConfig
+from .time_range import TimeRange
 from .track import Track
 from .user import User
