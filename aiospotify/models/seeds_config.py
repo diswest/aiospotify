@@ -1,10 +1,12 @@
-from typing import TYPE_CHECKING, Optional, List
+from typing import TYPE_CHECKING, Optional, List, Dict, Any
 
 if TYPE_CHECKING:
     from aiospotify.models import Key, Mode, Artist, Genre, Track
 
 
 class SeedsConfig:
+    _config: Dict[str, Any]
+
     def __init__(self, seed_artists: Optional[List[Artist]] = None,
                  seed_genres: Optional[List[Genre]] = None,
                  seed_tracks: Optional[List[Track]] = None):

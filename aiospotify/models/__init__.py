@@ -10,6 +10,7 @@ from .playlist import Playlist
 from .recommendations import Recommendations
 from .repeat_state import RepeatState
 from .seeds_config import SeedsConfig
+from .snapshot import Snapshot
 from .time_range import TimeRange
 from .track import Track
 from .user import User
